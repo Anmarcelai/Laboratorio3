@@ -22,6 +22,7 @@
     <itemPath>LibLCD.h</itemPath>
     <itemPath>ADC.c</itemPath>
     <itemPath>ADC.h</itemPath>
+    <itemPath>LIBLCD.c</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>

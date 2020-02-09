@@ -1,23 +1,18 @@
 /* 
  * File:   ADC.h
- * Author: Home
+ * Author: Andrea Marcela Ixquiac Madrigales 17285
  *
- * Created on 9 de febrero de 2020, 03:47 PM
+ * Created on February 4, 2020, 8:05 AM
  */
 
 #ifndef ADC_H
 #define	ADC_H
 
-#ifdef	__cplusplus
-extern "C" {
-#endif
+unsigned char adc = 0;
+unsigned char disp1 = 15;
+unsigned char disp2 = 1;
+int ncompleto =0;
+unsigned int configuracionADC(unsigned char FOSC, unsigned char channel);
+void readADC(void);
 
-
-
-
-#ifdef	__cplusplus
-}
-#endif
-
-#endif	/* ADC_H */
-
+#endif	/* ADC_H *
